@@ -1,7 +1,7 @@
 defmodule Blog.MixProject do
   use Mix.Project
 
-  @github_url  "o repositorio git do seu projet"
+  @github_url "o repositorio git do seu projet"
 
   def project do
     [
