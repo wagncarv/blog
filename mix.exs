@@ -7,7 +7,6 @@ defmodule Blog.MixProject do
     [
       app: :blog,
       version: "0.1.0",
-      elixir: "~> 1.7",
       description: "Projeto para aprender fundamentos do phoenix com elixir",
       source_url: @github_url,
       homepage_url: @github_url,
@@ -23,6 +22,7 @@ defmodule Blog.MixProject do
         main: "readme",
         extras: ["README.md", "CHANGELOG.md"]
       ],
+      elixir: "~> 1.11",
       elixirc_paths: elixirc_paths(Mix.env()),
       compilers: [:phoenix, :gettext] ++ Mix.compilers(),
       start_permanent: Mix.env() == :prod,
