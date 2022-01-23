@@ -10,6 +10,7 @@ config :blog, Blog.Repo,
   pool_size: 10
 
 # For development, we disable any cache and enable
+# For development, we disable any cache and enable
 # debugging and code reloading.
 #
 # The watchers configuration can be used to run external
