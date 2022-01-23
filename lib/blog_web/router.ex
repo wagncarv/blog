@@ -18,7 +18,10 @@ defmodule BlogWeb.Router do
 
   scope "/", BlogWeb do
     pipe_through :browser
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3ac6ed767d3d6487cfe507911670172211fc6640
     get "/", PageController, :index
   end
 
