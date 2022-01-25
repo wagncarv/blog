@@ -2,5 +2,8 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "sass-graph": "^4.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.13"
   }
 }
